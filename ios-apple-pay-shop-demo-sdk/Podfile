@@ -1,0 +1,5 @@
+
+
+target 'maxiShop', :exclusive => true do
+  pod "TKFormKit"  
+end

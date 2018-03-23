@@ -1,0 +1,10 @@
+PODS:
+  - TKFormKit (0.1.1)
+
+DEPENDENCIES:
+  - TKFormKit
+
+SPEC CHECKSUMS:
+  TKFormKit: 3a4deff5ed9186e2710a7959c2ef4ea67851c97e
+
+COCOAPODS: 0.38.0.beta.1

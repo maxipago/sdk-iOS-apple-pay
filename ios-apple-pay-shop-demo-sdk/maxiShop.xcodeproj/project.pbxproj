@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7651FE331A11591900D26BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651FE321A11591900D26BCB /* Main.storyboard */; };
+		7651FE361A1159D900D26BCB /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE351A1159D900D26BCB /* ProductsViewController.m */; };
+		7651FE391A1159E800D26BCB /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE381A1159E800D26BCB /* ShoppingCartViewController.m */; };
+		7651FE3F1A115A6200D26BCB /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE3E1A115A6200D26BCB /* DataBase.m */; };
+		7651FE421A115C4B00D26BCB /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE411A115C4B00D26BCB /* OrderItem.m */; };
+		7651FE481A11632900D26BCB /* OrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE471A11632900D26BCB /* OrderItemCell.m */; };
+		7651FE561A12043200D26BCB /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651FE551A12043200D26BCB /* UIHelper.m */; };
+		76BE845A1B41917D00F02BDD /* RESTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BE84591B41917D00F02BDD /* RESTAPIClient.m */; };
+		76BE845D1B42034D00F02BDD /* WalletRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BE845B1B42034D00F02BDD /* WalletRecord.m */; };
+		76D96E1E1AB199040062BCCB /* PaymentRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D96E1D1AB199040062BCCB /* PaymentRequestController.m */; };
+		76EF6F381A114944003872C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EF6F371A114944003872C3 /* main.m */; };
+		76EF6F3B1A114944003872C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EF6F3A1A114944003872C3 /* AppDelegate.m */; };
+		76EF6F461A114944003872C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EF6F451A114944003872C3 /* Images.xcassets */; };
+		76EF6F491A114944003872C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EF6F471A114944003872C3 /* LaunchScreen.xib */; };
+		B6818B48C02F8AA5D9FE6CED /* libPods-Shop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0C9C66B4D8EBC8BB3E92C7 /* libPods-Shop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36DA59641FE3FC0E00D99CF1 /* maxiShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = maxiShop.entitlements; sourceTree = "<group>"; };
+		7651FE321A11591900D26BCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7651FE341A1159D900D26BCB /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		7651FE351A1159D900D26BCB /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		7651FE371A1159E800D26BCB /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		7651FE381A1159E800D26BCB /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		7651FE3D1A115A6200D26BCB /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		7651FE3E1A115A6200D26BCB /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		7651FE401A115C4B00D26BCB /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		7651FE411A115C4B00D26BCB /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		7651FE461A11632900D26BCB /* OrderItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItemCell.h; sourceTree = "<group>"; };
+		7651FE471A11632900D26BCB /* OrderItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItemCell.m; sourceTree = "<group>"; };
+		7651FE541A12043200D26BCB /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		7651FE551A12043200D26BCB /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		76BE84581B41917D00F02BDD /* RESTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTAPIClient.h; sourceTree = "<group>"; };
+		76BE84591B41917D00F02BDD /* RESTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTAPIClient.m; sourceTree = "<group>"; };
+		76BE845B1B42034D00F02BDD /* WalletRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletRecord.m; sourceTree = "<group>"; };
+		76BE845C1B42034D00F02BDD /* WalletRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletRecord.h; sourceTree = "<group>"; };
+		76D96E1C1AB199040062BCCB /* PaymentRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentRequestController.h; sourceTree = "<group>"; };
+		76D96E1D1AB199040062BCCB /* PaymentRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentRequestController.m; sourceTree = "<group>"; };
+		76EF6F321A114944003872C3 /* maxiShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maxiShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EF6F361A114944003872C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EF6F371A114944003872C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76EF6F391A114944003872C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76EF6F3A1A114944003872C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76EF6F451A114944003872C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76EF6F481A114944003872C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C39DDE57BAE3884EAD0A3C67 /* Pods-Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shop/Pods-Shop.release.xcconfig"; sourceTree = "<group>"; };
+		CD65F94C2BBC4AC012974C56 /* Pods-Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shop/Pods-Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0C9C66B4D8EBC8BB3E92C7 /* libPods-Shop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76EF6F2F1A114944003872C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6818B48C02F8AA5D9FE6CED /* libPods-Shop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B97BBD7E577EECACA1C909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0C9C66B4D8EBC8BB3E92C7 /* libPods-Shop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76BE845E1B42036B00F02BDD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7651FE341A1159D900D26BCB /* ProductsViewController.h */,
+				7651FE351A1159D900D26BCB /* ProductsViewController.m */,
+				7651FE371A1159E800D26BCB /* ShoppingCartViewController.h */,
+				7651FE381A1159E800D26BCB /* ShoppingCartViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		76BE845F1B42038400F02BDD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7651FE3D1A115A6200D26BCB /* DataBase.h */,
+				7651FE3E1A115A6200D26BCB /* DataBase.m */,
+				7651FE401A115C4B00D26BCB /* OrderItem.h */,
+				7651FE411A115C4B00D26BCB /* OrderItem.m */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		76EF6F291A114944003872C3 = {
+			isa = PBXGroup;
+			children = (
+				76EF6F341A114944003872C3 /* maxiShop */,
+				76EF6F331A114944003872C3 /* Products */,
+				AF914E13E7AC42CD14B92A6D /* Pods */,
+				65B97BBD7E577EECACA1C909 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76EF6F331A114944003872C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76EF6F321A114944003872C3 /* maxiShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76EF6F341A114944003872C3 /* maxiShop */ = {
+			isa = PBXGroup;
+			children = (
+				36DA59641FE3FC0E00D99CF1 /* maxiShop.entitlements */,
+				76EF6F391A114944003872C3 /* AppDelegate.h */,
+				76EF6F3A1A114944003872C3 /* AppDelegate.m */,
+				76BE845F1B42038400F02BDD /* Repository */,
+				7651FE461A11632900D26BCB /* OrderItemCell.h */,
+				7651FE471A11632900D26BCB /* OrderItemCell.m */,
+				7651FE541A12043200D26BCB /* UIHelper.h */,
+				7651FE551A12043200D26BCB /* UIHelper.m */,
+				76D96E1C1AB199040062BCCB /* PaymentRequestController.h */,
+				76D96E1D1AB199040062BCCB /* PaymentRequestController.m */,
+				76BE84581B41917D00F02BDD /* RESTAPIClient.h */,
+				76BE84591B41917D00F02BDD /* RESTAPIClient.m */,
+				76BE845B1B42034D00F02BDD /* WalletRecord.m */,
+				76BE845C1B42034D00F02BDD /* WalletRecord.h */,
+				76BE845E1B42036B00F02BDD /* ViewController */,
+				76EF6F471A114944003872C3 /* LaunchScreen.xib */,
+				7651FE321A11591900D26BCB /* Main.storyboard */,
+				76EF6F451A114944003872C3 /* Images.xcassets */,
+				76EF6F351A114944003872C3 /* Helper */,
+			);
+			path = maxiShop;
+			sourceTree = "<group>";
+		};
+		76EF6F351A114944003872C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				76EF6F361A114944003872C3 /* Info.plist */,
+				76EF6F371A114944003872C3 /* main.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		AF914E13E7AC42CD14B92A6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD65F94C2BBC4AC012974C56 /* Pods-Shop.debug.xcconfig */,
+				C39DDE57BAE3884EAD0A3C67 /* Pods-Shop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76EF6F311A114944003872C3 /* maxiShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EF6F581A114944003872C3 /* Build configuration list for PBXNativeTarget "maxiShop" */;
+			buildPhases = (
+				C38F9B8B679201431A6DECD1 /* Check Pods Manifest.lock */,
+				76EF6F2E1A114944003872C3 /* Sources */,
+				76EF6F2F1A114944003872C3 /* Frameworks */,
+				76EF6F301A114944003872C3 /* Resources */,
+				1746C35B25BF7BD6EDD5686C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maxiShop;
+			productName = Shop;
+			productReference = 76EF6F321A114944003872C3 /* maxiShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76EF6F2A1A114944003872C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = maxiPago;
+				TargetAttributes = {
+					76EF6F311A114944003872C3 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = TLN7QS7W9W;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 1;
+							};
+							com.apple.Passbook = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 76EF6F2D1A114944003872C3 /* Build configuration list for PBXProject "maxiShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76EF6F291A114944003872C3;
+			productRefGroup = 76EF6F331A114944003872C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76EF6F311A114944003872C3 /* maxiShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76EF6F301A114944003872C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7651FE331A11591900D26BCB /* Main.storyboard in Resources */,
+				76EF6F491A114944003872C3 /* LaunchScreen.xib in Resources */,
+				76EF6F461A114944003872C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1746C35B25BF7BD6EDD5686C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shop/Pods-Shop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38F9B8B679201431A6DECD1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76EF6F2E1A114944003872C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7651FE481A11632900D26BCB /* OrderItemCell.m in Sources */,
+				7651FE391A1159E800D26BCB /* ShoppingCartViewController.m in Sources */,
+				7651FE361A1159D900D26BCB /* ProductsViewController.m in Sources */,
+				76D96E1E1AB199040062BCCB /* PaymentRequestController.m in Sources */,
+				76BE845A1B41917D00F02BDD /* RESTAPIClient.m in Sources */,
+				76EF6F3B1A114944003872C3 /* AppDelegate.m in Sources */,
+				7651FE561A12043200D26BCB /* UIHelper.m in Sources */,
+				76EF6F381A114944003872C3 /* main.m in Sources */,
+				76BE845D1B42034D00F02BDD /* WalletRecord.m in Sources */,
+				7651FE421A115C4B00D26BCB /* OrderItem.m in Sources */,
+				7651FE3F1A115A6200D26BCB /* DataBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76EF6F471A114944003872C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EF6F481A114944003872C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76EF6F561A114944003872C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76EF6F571A114944003872C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: infra@maxipago.com (YXXDWHXH94)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76EF6F591A114944003872C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD65F94C2BBC4AC012974C56 /* Pods-Shop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = maxiShop/maxiShop.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLN7QS7W9W;
+				INFOPLIST_FILE = "$(SRCROOT)/maxiShop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxipago.shop.psp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76EF6F5A1A114944003872C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39DDE57BAE3884EAD0A3C67 /* Pods-Shop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = maxiShop/maxiShop.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLN7QS7W9W;
+				INFOPLIST_FILE = "$(SRCROOT)/maxiShop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxipago.shop.psp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76EF6F2D1A114944003872C3 /* Build configuration list for PBXProject "maxiShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EF6F561A114944003872C3 /* Debug */,
+				76EF6F571A114944003872C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EF6F581A114944003872C3 /* Build configuration list for PBXNativeTarget "maxiShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EF6F591A114944003872C3 /* Debug */,
+				76EF6F5A1A114944003872C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76EF6F2A1A114944003872C3 /* Project object */;
+}

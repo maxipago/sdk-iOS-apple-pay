@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022C8F86B8E097BA2ED522EB /* TKFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A28E0D65A7679577757ABC /* TKFormViewController.h */; };
+		0CCD18901809E93619B720D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E78CDAF3CE0CF7AF95E0F3 /* Foundation.framework */; };
+		10D12C98C25D5455B6DA81B9 /* TKForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A98BBA43B9DBA1A1120EEC /* TKForm.m */; };
+		14534E7EB5CEB1F02348E179 /* TKFormInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A8FA1D6E82070F807DBB4 /* TKFormInputCell.h */; };
+		2BBFBFAC5A7825771AEBA4E2 /* TKFormSelectorPushCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 516156F1F5F8BC92482F52E4 /* TKFormSelectorPushCell.m */; };
+		38F1291104C413CC3602393F /* TKFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DCF86A92547271306F39E /* TKFormCell.m */; };
+		3D8C3D9E212471E22AE88FC2 /* TKFormRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C330489F4E3C0EECCBC3AA /* TKFormRow.h */; };
+		632FF52852B10D9B97634B1A /* TKFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74EA0D8353671F0BAEA4EE /* TKFormSection.m */; };
+		635AFD1F4CDDC86649BB007D /* TKFormStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FC387FD56D3BD7483FE9B586 /* TKFormStyle.h */; };
+		65B07E32A6B8303D2A4F9967 /* TKFormKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAB326AE2AEA5B0BF7D55AA /* TKFormKit.h */; };
+		69A7501ED2B2FCE6FF5EEF8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E78CDAF3CE0CF7AF95E0F3 /* Foundation.framework */; };
+		7A5D2EC3DB1665447E606774 /* Pods-Shop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3549450FB553AC3E0B8912 /* Pods-Shop-dummy.m */; };
+		7ADA860C32DAAFEDBEC0E01B /* TKFormCells.h in Headers */ = {isa = PBXBuildFile; fileRef = 4112A4E804B9F3A9FE12EE1B /* TKFormCells.h */; };
+		932EAC8097A431C05AF570A6 /* TKFormStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F63E84A5406D2C0E65D86BC /* TKFormStyle.m */; };
+		9558DCC83122F338D144B67A /* TKFormSelectorPushCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E9730E1B9FC0189A02FDB4 /* TKFormSelectorPushCell.h */; };
+		A9151D5FA0DCC49971BFCF0F /* TKFormDateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6582FEDA8EE45B5D65719A /* TKFormDateCell.h */; };
+		A9CAF19B36FED626DCD58971 /* TKFormCells.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6346F6D3D24DCBF90E6B8A /* TKFormCells.m */; };
+		AD19B3F420C07E0E116BF339 /* TKFormDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A71648924FAF600B446E1BC /* TKFormDateCell.m */; };
+		B53A268808269A8F310C87CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2876EB7C8E18A85D03FA945 /* UIKit.framework */; };
+		C907BEF1E0F6EBCAE559AC92 /* TKFormKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78FCC0BF7A65D120AE734F /* TKFormKit-dummy.m */; };
+		CAE003E90C26D7185C0A68FE /* TKFormDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B0CFDF8E9D3601EF5AA6CC /* TKFormDefines.h */; };
+		CF3F62EB15C8D3BE071AC05F /* TKForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 566DFA16E5C309FAA1C91E16 /* TKForm.h */; };
+		CFDC151EBF090C268361992F /* TKFormInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D2135C3724479FD824E353 /* TKFormInputCell.m */; };
+		D7717C3089220F5A038D7C03 /* TKFormSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE6D062C89CD110F85FE92 /* TKFormSection.h */; };
+		E4CA7AA96FF23B9537658839 /* TKFormRow.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C6A6D6EC815E89BD81BE9E /* TKFormRow.m */; };
+		E6479A177D5F488BEF0691AA /* TKFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4619FC22F31EEE8A13B17E2 /* TKFormViewController.m */; };
+		FD5824BB6C27D9B6F85970FB /* TKFormCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDF1410C71B70B36338044B /* TKFormCell.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C082D7D1A2783D01E8461016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD38B6CA04558BABAC0CF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA32CCFF14174B93D7B40493;
+			remoteInfo = TKFormKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6582FEDA8EE45B5D65719A /* TKFormDateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormDateCell.h; path = Pod/Classes/Cells/TKFormDateCell.h; sourceTree = "<group>"; };
+		1FEC588010C0978AEE3F730A /* TKFormKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TKFormKit-Private.xcconfig"; sourceTree = "<group>"; };
+		21C330489F4E3C0EECCBC3AA /* TKFormRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormRow.h; path = Pod/Classes/TKFormRow.h; sourceTree = "<group>"; };
+		4112A4E804B9F3A9FE12EE1B /* TKFormCells.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormCells.h; path = Pod/Classes/Cells/TKFormCells.h; sourceTree = "<group>"; };
+		41FB7D22396298EFC7ADBB2A /* TKFormKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFormKit-prefix.pch"; sourceTree = "<group>"; };
+		4FEE6D062C89CD110F85FE92 /* TKFormSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormSection.h; path = Pod/Classes/TKFormSection.h; sourceTree = "<group>"; };
+		516156F1F5F8BC92482F52E4 /* TKFormSelectorPushCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormSelectorPushCell.m; path = Pod/Classes/Cells/TKFormSelectorPushCell.m; sourceTree = "<group>"; };
+		55CCFA7BF1BBDFF713C8F18D /* Pods-Shop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		566DFA16E5C309FAA1C91E16 /* TKForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKForm.h; path = Pod/Classes/TKForm.h; sourceTree = "<group>"; };
+		5D87D10FDA5AD116A04E66D4 /* TKFormKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKFormKit.xcconfig; sourceTree = "<group>"; };
+		638B6103C2F305A63C1F06DF /* Pods-Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shop.release.xcconfig"; sourceTree = "<group>"; };
+		6EDF1410C71B70B36338044B /* TKFormCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormCell.h; path = Pod/Classes/Cells/TKFormCell.h; sourceTree = "<group>"; };
+		79D4DB51152A0AC447114289 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F63E84A5406D2C0E65D86BC /* TKFormStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormStyle.m; path = Pod/Classes/TKFormStyle.m; sourceTree = "<group>"; };
+		82D2135C3724479FD824E353 /* TKFormInputCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormInputCell.m; path = Pod/Classes/Cells/TKFormInputCell.m; sourceTree = "<group>"; };
+		83E78CDAF3CE0CF7AF95E0F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83E9730E1B9FC0189A02FDB4 /* TKFormSelectorPushCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormSelectorPushCell.h; path = Pod/Classes/Cells/TKFormSelectorPushCell.h; sourceTree = "<group>"; };
+		93A98BBA43B9DBA1A1120EEC /* TKForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKForm.m; path = Pod/Classes/TKForm.m; sourceTree = "<group>"; };
+		948F3C1D7757749DF5B31527 /* libPods-Shop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A71648924FAF600B446E1BC /* TKFormDateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormDateCell.m; path = Pod/Classes/Cells/TKFormDateCell.m; sourceTree = "<group>"; };
+		A1C6A6D6EC815E89BD81BE9E /* TKFormRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormRow.m; path = Pod/Classes/TKFormRow.m; sourceTree = "<group>"; };
+		A8E74A9E42E4042E9DB6910A /* Pods-Shop-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shop-resources.sh"; sourceTree = "<group>"; };
+		AF3549450FB553AC3E0B8912 /* Pods-Shop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shop-dummy.m"; sourceTree = "<group>"; };
+		C2A28E0D65A7679577757ABC /* TKFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormViewController.h; path = Pod/Classes/TKFormViewController.h; sourceTree = "<group>"; };
+		C4619FC22F31EEE8A13B17E2 /* TKFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormViewController.m; path = Pod/Classes/TKFormViewController.m; sourceTree = "<group>"; };
+		CC78FCC0BF7A65D120AE734F /* TKFormKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKFormKit-dummy.m"; sourceTree = "<group>"; };
+		CD0A8FA1D6E82070F807DBB4 /* TKFormInputCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormInputCell.h; path = Pod/Classes/Cells/TKFormInputCell.h; sourceTree = "<group>"; };
+		D2876EB7C8E18A85D03FA945 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D59DCF86A92547271306F39E /* TKFormCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormCell.m; path = Pod/Classes/Cells/TKFormCell.m; sourceTree = "<group>"; };
+		DA0A04A39321E9D4487D843E /* Pods-Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		DD74EA0D8353671F0BAEA4EE /* TKFormSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormSection.m; path = Pod/Classes/TKFormSection.m; sourceTree = "<group>"; };
+		E3B0CFDF8E9D3601EF5AA6CC /* TKFormDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormDefines.h; path = Pod/Classes/TKFormDefines.h; sourceTree = "<group>"; };
+		ED6346F6D3D24DCBF90E6B8A /* TKFormCells.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKFormCells.m; path = Pod/Classes/Cells/TKFormCells.m; sourceTree = "<group>"; };
+		F430E7217CBA5D14069EC487 /* Pods-Shop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shop-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAE4309861DFEBCC0E439236 /* libTKFormKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKFormKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC387FD56D3BD7483FE9B586 /* TKFormStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormStyle.h; path = Pod/Classes/TKFormStyle.h; sourceTree = "<group>"; };
+		FDAB326AE2AEA5B0BF7D55AA /* TKFormKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKFormKit.h; path = Pod/Classes/TKFormKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D76EE5213ECA3203D5851B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCD18901809E93619B720D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C4838D5ABD1620B23FE3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A7501ED2B2FCE6FF5EEF8D /* Foundation.framework in Frameworks */,
+				B53A268808269A8F310C87CD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AB9A43E53AC1A8857CDDA4 = {
+			isa = PBXGroup;
+			children = (
+				79D4DB51152A0AC447114289 /* Podfile */,
+				7BB42C005C0C2390BEFF297E /* Frameworks */,
+				770EAACC86D269CA69FADE0F /* Pods */,
+				1C32F5F1A66A233BB8C5DE3F /* Products */,
+				7AAC75083F3A6059D3B3D2CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9D2C7A63193208E3F4B911 /* TKFormKit */ = {
+			isa = PBXGroup;
+			children = (
+				566DFA16E5C309FAA1C91E16 /* TKForm.h */,
+				93A98BBA43B9DBA1A1120EEC /* TKForm.m */,
+				6EDF1410C71B70B36338044B /* TKFormCell.h */,
+				D59DCF86A92547271306F39E /* TKFormCell.m */,
+				4112A4E804B9F3A9FE12EE1B /* TKFormCells.h */,
+				ED6346F6D3D24DCBF90E6B8A /* TKFormCells.m */,
+				0C6582FEDA8EE45B5D65719A /* TKFormDateCell.h */,
+				9A71648924FAF600B446E1BC /* TKFormDateCell.m */,
+				E3B0CFDF8E9D3601EF5AA6CC /* TKFormDefines.h */,
+				CD0A8FA1D6E82070F807DBB4 /* TKFormInputCell.h */,
+				82D2135C3724479FD824E353 /* TKFormInputCell.m */,
+				FDAB326AE2AEA5B0BF7D55AA /* TKFormKit.h */,
+				21C330489F4E3C0EECCBC3AA /* TKFormRow.h */,
+				A1C6A6D6EC815E89BD81BE9E /* TKFormRow.m */,
+				4FEE6D062C89CD110F85FE92 /* TKFormSection.h */,
+				DD74EA0D8353671F0BAEA4EE /* TKFormSection.m */,
+				83E9730E1B9FC0189A02FDB4 /* TKFormSelectorPushCell.h */,
+				516156F1F5F8BC92482F52E4 /* TKFormSelectorPushCell.m */,
+				FC387FD56D3BD7483FE9B586 /* TKFormStyle.h */,
+				7F63E84A5406D2C0E65D86BC /* TKFormStyle.m */,
+				C2A28E0D65A7679577757ABC /* TKFormViewController.h */,
+				C4619FC22F31EEE8A13B17E2 /* TKFormViewController.m */,
+				323AD7CA4A4B96C1F36D858C /* Support Files */,
+			);
+			path = TKFormKit;
+			sourceTree = "<group>";
+		};
+		1C32F5F1A66A233BB8C5DE3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948F3C1D7757749DF5B31527 /* libPods-Shop.a */,
+				FAE4309861DFEBCC0E439236 /* libTKFormKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323AD7CA4A4B96C1F36D858C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D87D10FDA5AD116A04E66D4 /* TKFormKit.xcconfig */,
+				1FEC588010C0978AEE3F730A /* TKFormKit-Private.xcconfig */,
+				CC78FCC0BF7A65D120AE734F /* TKFormKit-dummy.m */,
+				41FB7D22396298EFC7ADBB2A /* TKFormKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKFormKit";
+			sourceTree = "<group>";
+		};
+		770EAACC86D269CA69FADE0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D2C7A63193208E3F4B911 /* TKFormKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AAC75083F3A6059D3B3D2CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAABEF8BDC673E635B2BEE07 /* Pods-Shop */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BB42C005C0C2390BEFF297E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				810F32D91BF90731854B7044 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		810F32D91BF90731854B7044 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83E78CDAF3CE0CF7AF95E0F3 /* Foundation.framework */,
+				D2876EB7C8E18A85D03FA945 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BAABEF8BDC673E635B2BEE07 /* Pods-Shop */ = {
+			isa = PBXGroup;
+			children = (
+				55CCFA7BF1BBDFF713C8F18D /* Pods-Shop-acknowledgements.markdown */,
+				F430E7217CBA5D14069EC487 /* Pods-Shop-acknowledgements.plist */,
+				AF3549450FB553AC3E0B8912 /* Pods-Shop-dummy.m */,
+				A8E74A9E42E4042E9DB6910A /* Pods-Shop-resources.sh */,
+				DA0A04A39321E9D4487D843E /* Pods-Shop.debug.xcconfig */,
+				638B6103C2F305A63C1F06DF /* Pods-Shop.release.xcconfig */,
+			);
+			name = "Pods-Shop";
+			path = "Target Support Files/Pods-Shop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4D92715FDF7325470A5AD43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F62EB15C8D3BE071AC05F /* TKForm.h in Headers */,
+				FD5824BB6C27D9B6F85970FB /* TKFormCell.h in Headers */,
+				7ADA860C32DAAFEDBEC0E01B /* TKFormCells.h in Headers */,
+				A9151D5FA0DCC49971BFCF0F /* TKFormDateCell.h in Headers */,
+				CAE003E90C26D7185C0A68FE /* TKFormDefines.h in Headers */,
+				14534E7EB5CEB1F02348E179 /* TKFormInputCell.h in Headers */,
+				65B07E32A6B8303D2A4F9967 /* TKFormKit.h in Headers */,
+				3D8C3D9E212471E22AE88FC2 /* TKFormRow.h in Headers */,
+				D7717C3089220F5A038D7C03 /* TKFormSection.h in Headers */,
+				9558DCC83122F338D144B67A /* TKFormSelectorPushCell.h in Headers */,
+				635AFD1F4CDDC86649BB007D /* TKFormStyle.h in Headers */,
+				022C8F86B8E097BA2ED522EB /* TKFormViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6820C3A9FE86AC48B905A83F /* Pods-Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C9C9D911732280CA9D3736 /* Build configuration list for PBXNativeTarget "Pods-Shop" */;
+			buildPhases = (
+				9E3568D212EA8C71B309FB0D /* Sources */,
+				44D76EE5213ECA3203D5851B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA371E1F4F16961EC03CDDA /* PBXTargetDependency */,
+			);
+			name = "Pods-Shop";
+			productName = "Pods-Shop";
+			productReference = 948F3C1D7757749DF5B31527 /* libPods-Shop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA32CCFF14174B93D7B40493 /* TKFormKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40AED57D04FEB9DC9CBDD0B0 /* Build configuration list for PBXNativeTarget "TKFormKit" */;
+			buildPhases = (
+				719770125F2FC290D9642DA7 /* Sources */,
+				B8C4838D5ABD1620B23FE3DC /* Frameworks */,
+				B4D92715FDF7325470A5AD43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKFormKit;
+			productName = TKFormKit;
+			productReference = FAE4309861DFEBCC0E439236 /* libTKFormKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD38B6CA04558BABAC0CF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 6C241989BA6E426FB7138B5E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02AB9A43E53AC1A8857CDDA4;
+			productRefGroup = 1C32F5F1A66A233BB8C5DE3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6820C3A9FE86AC48B905A83F /* Pods-Shop */,
+				BA32CCFF14174B93D7B40493 /* TKFormKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719770125F2FC290D9642DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D12C98C25D5455B6DA81B9 /* TKForm.m in Sources */,
+				38F1291104C413CC3602393F /* TKFormCell.m in Sources */,
+				A9CAF19B36FED626DCD58971 /* TKFormCells.m in Sources */,
+				AD19B3F420C07E0E116BF339 /* TKFormDateCell.m in Sources */,
+				CFDC151EBF090C268361992F /* TKFormInputCell.m in Sources */,
+				C907BEF1E0F6EBCAE559AC92 /* TKFormKit-dummy.m in Sources */,
+				E4CA7AA96FF23B9537658839 /* TKFormRow.m in Sources */,
+				632FF52852B10D9B97634B1A /* TKFormSection.m in Sources */,
+				2BBFBFAC5A7825771AEBA4E2 /* TKFormSelectorPushCell.m in Sources */,
+				932EAC8097A431C05AF570A6 /* TKFormStyle.m in Sources */,
+				E6479A177D5F488BEF0691AA /* TKFormViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3568D212EA8C71B309FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5D2EC3DB1665447E606774 /* Pods-Shop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA371E1F4F16961EC03CDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKFormKit;
+			target = BA32CCFF14174B93D7B40493 /* TKFormKit */;
+			targetProxy = C082D7D1A2783D01E8461016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DAD287BBA7D59AFA4EB2EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0A04A39321E9D4487D843E /* Pods-Shop.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47B0EC0E34A2B74B415670C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EF61740FAC366B3A123B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638B6103C2F305A63C1F06DF /* Pods-Shop.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59FC52C88DCC2DA1870B45A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEC588010C0978AEE3F730A /* TKFormKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKFormKit/TKFormKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94C96B5CBB73EAFBA568649D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEC588010C0978AEE3F730A /* TKFormKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKFormKit/TKFormKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EACC2151AC5FB34DC73577E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40AED57D04FEB9DC9CBDD0B0 /* Build configuration list for PBXNativeTarget "TKFormKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FC52C88DCC2DA1870B45A6 /* Debug */,
+				94C96B5CBB73EAFBA568649D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C241989BA6E426FB7138B5E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC2151AC5FB34DC73577E1 /* Debug */,
+				47B0EC0E34A2B74B415670C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C9C9D911732280CA9D3736 /* Build configuration list for PBXNativeTarget "Pods-Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAD287BBA7D59AFA4EB2EA5 /* Debug */,
+				51EF61740FAC366B3A123B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD38B6CA04558BABAC0CF66 /* Project object */;
+}
