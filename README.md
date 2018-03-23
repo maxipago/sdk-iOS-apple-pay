@@ -30,8 +30,6 @@ A maxiPago! disponibiliza um guia de afiliação completo para o Produto Apple P
 ### Setup
 
 Para dar suporte ao Apple Pay, seu app precisa ter a função ativada nos capabilities do App.
-![alt text](http://i1255.photobucket.com/albums/hh633/lramosouza/Apple%20Pay%20App%20-%20Fluxo%201_zpsizscv7eh.png)
-
 
 ### Fluxo Apple Pay
 ![alt text](http://i1255.photobucket.com/albums/hh633/lramosouza/enable%20apple%20pay_zpsdcwkgszp.png)
@@ -51,6 +49,8 @@ maxipagoAdditionalPaymentData: adicionar os parâmetros adicionais da maxiPago!
 
 
 - NOTE: Esta loja exemplo possui alguns logs para auxilia-lo na depuração, retire os logs antes de rodar em produção. Altere o endpoint da api da maxiPago! na classe consumidora: 
+
 SANDBOX: https://testapi.maxipago.net/UniversalAPI/rest/EncryptedWallet/order
+
 PRODUÇÃO: https://api.maxipago.net/UniversalAPI/rest/EncryptedWallet/order
 
