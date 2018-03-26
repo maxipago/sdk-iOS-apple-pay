@@ -31,7 +31,7 @@ A integração com o Apple Pay requer a troca dois certificados com a maxiPago, 
 
 Para dar suporte ao Apple Pay, seu app precisa ter a função ativada nos capabilities do App. 
 
-**"Capabilities > Apple Pay > Assinalar o Merchant ID que deseja utilizar."
+**"Capabilities > Apple Pay > Assinalar o Merchant ID que deseja utilizar."**
 
 
 **NOTE: Sua conta do Apple MemberCenter precisa estar vinculada a seu xCODE para viabilizar a adição de seu merchant ID ao projeto.**
