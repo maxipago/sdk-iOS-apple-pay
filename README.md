@@ -24,7 +24,7 @@ A integração com o Apple Pay requer a troca dois certificados com a maxiPago, 
 
 - O Apple Pay necessita que sua execução seja feita sob um ambiente HTTPS e que este domínio seja verificado no Apple Member Center.
 
-*NOTE: A maxiPago! disponibiliza um guia de afiliação completo para o Produto Apple Pay que te auxiliará neste processo de certificação e verificação de domínio, para mais informações, contate um de nossos representantes :) *
+**NOTE: A maxiPago! disponibiliza um guia de afiliação completo para o Produto Apple Pay que te auxiliará neste processo de certificação e verificação de domínio, para mais informações, contate um de nossos representantes :)**
 
 
 ### Setup
@@ -34,7 +34,7 @@ Para dar suporte ao Apple Pay, seu app precisa ter a função ativada nos capabi
 **"Capabilities > Apple Pay > Assinalar o Merchant ID que deseja utilizar."
 
 
-**NOTE: Sua conta do Apple MemberCenter precisa estar vinculada a seu xCODE para viabilizar a adição de seu merchant ID ao projeto. **
+**NOTE: Sua conta do Apple MemberCenter precisa estar vinculada a seu xCODE para viabilizar a adição de seu merchant ID ao projeto.**
 
 
 ``` obj-c
@@ -51,7 +51,7 @@ request.paymentSummaryItems = @[totalItem]; // O paymentSummaryItems é um recur
 
 ```
 
-**NOTE: seguir as recomendações acima é mandatório para o funcionamento de seu App com ApplePay. **
+**NOTE: seguir as recomendações acima é mandatório para o funcionamento de seu App com ApplePay.**
 
 
 ### Fluxo Apple Pay
@@ -66,7 +66,7 @@ SANDBOX: https://testapi.maxipago.net/UniversalAPI/rest/EncryptedWallet/order
 
 PRODUÇÃO: https://api.maxipago.net/UniversalAPI/rest/EncryptedWallet/order
 
- **NOTE: Esta loja exemplo possui alguns logs para auxilia-lo na depuração, retire os logs antes de rodar em produção. **
+ **NOTE: Esta loja exemplo possui alguns logs para auxilia-lo na depuração, retire os logs antes de rodar em produção.**
 
 No item .m "PaymentRequestController.m", método prepareMaxiPagoRequestData, colocar os parâmetos da chamada JSON conforme a sua necessidade de negócio e atentar-se para o transactionType, conforme manual de integração.
 
