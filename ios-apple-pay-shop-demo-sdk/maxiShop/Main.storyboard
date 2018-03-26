@@ -105,17 +105,6 @@
                             <rect key="frame" x="0.0" y="86" width="375" height="203"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <pickerView alpha="0.94999998807907104" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZd-iz-F0w" userLabel="picker">
-                                    <rect key="frame" x="0.0" y="101" width="375" height="85"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                </pickerView>
-                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" fixedFrame="YES" text="Choose Your Transaction Type:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8Z-ku-aI2">
-                                    <rect key="frame" x="76" y="60" width="222" height="33"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fe-Wm-unD">
                                     <rect key="frame" x="20" y="8" width="335" height="44"/>
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -135,11 +124,15 @@
                                         <action selector="startPayment:" destination="u3B-ag-UBz" eventType="touchUpInside" id="eIK-M4-K99"/>
                                     </connections>
                                 </button>
+                                <pickerView alpha="0.94999998807907104" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZd-iz-F0w" userLabel="picker">
+                                    <rect key="frame" x="-1" y="118" width="375" height="85"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </pickerView>
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="centerX" secondItem="3Fe-Wm-unD" secondAttribute="centerX" id="L6H-K6-82Q"/>
-                                <constraint firstAttribute="centerY" secondItem="3Fe-Wm-unD" secondAttribute="centerY" constant="74" id="umK-r9-UvX"/>
+                                <constraint firstAttribute="centerY" secondItem="3Fe-Wm-unD" secondAttribute="centerY" constant="80" id="umK-r9-UvX"/>
                             </constraints>
                         </view>
                         <prototypes>

@@ -107,12 +107,6 @@
         PKPaymentSummaryItem *si = [PKPaymentSummaryItem summaryItemWithLabel:item.title amount:item.price];
         [items addObject:si];
     }
-    if ([transactionTypeSelected isEqualToString: @"Recurring"]){
-
-        UIAlertView *myal = [[UIAlertView alloc] initWithTitle:@"Reccurency considerations" message:@"For the recurring payment on this example, the periodicity is monthly" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        
-        [myal show];
-    }
     
     NSString *ref = [NSString stringWithFormat:@"TMRef%.0f", [NSDate timeIntervalSinceReferenceDate]];
     

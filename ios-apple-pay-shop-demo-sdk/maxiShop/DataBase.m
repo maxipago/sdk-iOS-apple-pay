@@ -33,7 +33,7 @@
 - (void)setupDefaults {
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
     if (![ud stringForKey:@"endpoint"]) {
-        [ud setObject:@"merchant.your.merchant.id.com" forKey:@"endpoint"];
+        [ud setObject:@"merchant.your.merchant.com" forKey:@"endpoint"];
     }
 
     [ud synchronize];

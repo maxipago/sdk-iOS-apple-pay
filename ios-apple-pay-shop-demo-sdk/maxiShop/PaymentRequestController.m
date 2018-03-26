@@ -55,7 +55,7 @@ NSString *transactionTypeG = nil;
     request.supportedNetworks = @[ PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex ];
     request.merchantCapabilities = PKMerchantCapability3DS;
 
-    request.merchantIdentifier = @"merchant.your.merchant.id.com";
+    request.merchantIdentifier = @"merchant.your.merchant.com";
     request.countryCode = @"US";
     request.currencyCode = [DataBase shared].currency;
  //   NSData* transactionTypeConverted = [transactionType dataUsingEncoding:NSUTF8StringEncoding];
@@ -125,36 +125,80 @@ NSString *transactionTypeG = nil;
     if([transactionTypeG isEqualToString:@"Auth"]){
         transactionTypeG = @"auth";
     }
+    NSDictionary *maxiPagoPaymentRequest = nil;
     
-    NSDictionary *maxiPagoPaymentRequest =
-    @{
-      @"wallet": @"applePay",
-      @"referenceNumber": @"TEST-APPLE-PAY-RF",
-      @"installments": @4,
-      @"chargeInterest": @"Y",
-      @"walletDetail": @{
-              @"merchantIdentifier": @"merchant.your.merchant.id.com",
-              @"transactionType": transactionTypeG,
-              @"applePayPayment": @{
-                      @"paymentData": @{
-                              @"version": paymentTokenJSON[@"version"],
-                              @"data": paymentTokenJSON[@"data"],
-                              @"signature": paymentTokenJSON[@"signature"],
-                              @"header": @{
-                                      @"ephemeralPublicKey": paymentHeader[@"ephemeralPublicKey"],
-                                      @"publicKeyHash": paymentHeader[@"publicKeyHash"],
-                                      @"transactionId": paymentHeader[@"transactionId"],
-                                      }
-                              },
-                      @"paymentMethod": @{
-                              @"displayName": payment.token.paymentMethod.displayName,
-                              @"network": payment.token.paymentMethod.network,
-                              @"type": paymentType
-                              },
-                      @"transactionIdentifier": payment.token.transactionIdentifier
-                      }
-              }
-      };
+    if([transactionTypeG isEqualToString:@"recurringPayment"]){
+        maxiPagoPaymentRequest =
+        @{
+          @"wallet": @"applePay",
+          @"referenceNumber": @"TEST-APPLE-PAY-RF",
+          @"installments": @4,
+          @"chargeInterest": @"Y",
+          @"walletDetail": @{
+                  @"merchantIdentifier": @"merchant.your.merchant.com",
+                  @"transactionType": transactionTypeG,
+                  @"recurring":@{
+                      @"action":@"new",
+                      @"startDate":@"2018-10-07",
+                      @"period":@"daily",
+                      @"frequency":@"1",
+                      @"installments":@"12",
+                      @"firstAmount":@"100",
+                      @"lastAmount":@"1000",
+                      @"lastDate":@"2020-10-05",
+                      @"failureThreshold":@"1"
+                  },
+                  @"applePayPayment": @{
+                          @"paymentData": @{
+                                  @"version": paymentTokenJSON[@"version"],
+                                  @"data": paymentTokenJSON[@"data"],
+                                  @"signature": paymentTokenJSON[@"signature"],
+                                  @"header": @{
+                                          @"ephemeralPublicKey": paymentHeader[@"ephemeralPublicKey"],
+                                          @"publicKeyHash": paymentHeader[@"publicKeyHash"],
+                                          @"transactionId": paymentHeader[@"transactionId"],
+                                          }
+                                  },
+                          @"paymentMethod": @{
+                                  @"displayName": payment.token.paymentMethod.displayName,
+                                  @"network": payment.token.paymentMethod.network,
+                                  @"type": paymentType
+                                  },
+                          @"transactionIdentifier": payment.token.transactionIdentifier
+                          }
+                  }
+          };
+    } else {
+        maxiPagoPaymentRequest =
+        @{
+          @"wallet": @"applePay",
+          @"referenceNumber": @"TEST-APPLE-PAY-RF",
+          @"installments": @4,
+          @"chargeInterest": @"Y",
+          @"walletDetail": @{
+                  @"merchantIdentifier": @"merchant.your.merchant.com",
+                  @"transactionType": transactionTypeG,
+                  @"applePayPayment": @{
+                          @"paymentData": @{
+                                  @"version": paymentTokenJSON[@"version"],
+                                  @"data": paymentTokenJSON[@"data"],
+                                  @"signature": paymentTokenJSON[@"signature"],
+                                  @"header": @{
+                                          @"ephemeralPublicKey": paymentHeader[@"ephemeralPublicKey"],
+                                          @"publicKeyHash": paymentHeader[@"publicKeyHash"],
+                                          @"transactionId": paymentHeader[@"transactionId"],
+                                          }
+                                  },
+                          @"paymentMethod": @{
+                                  @"displayName": payment.token.paymentMethod.displayName,
+                                  @"network": payment.token.paymentMethod.network,
+                                  @"type": paymentType
+                                  },
+                          @"transactionIdentifier": payment.token.transactionIdentifier
+                          }
+                  }
+          };
+    }
     
     return maxiPagoPaymentRequest;
 }
